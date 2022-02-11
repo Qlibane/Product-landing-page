@@ -1,0 +1,12 @@
+.product {
+    float: left;
+    padding: 30px 30px;
+}
+
+.product.tenor {
+    padding-left: 0px;
+}
+
+main {
+    align-content: center;
+}
