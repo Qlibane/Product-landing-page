@@ -26,6 +26,9 @@ nav {
     top: 0px;
     background-color: rgb(184, 179, 179);
   }
+  span {
+      font-size: 24px;
+  }
   
   .nav-links {
       display: flex;
@@ -128,10 +131,8 @@ button {
     text-align: center;
     border: none;
     font-family: 'Rubik', sans-serif;
+
 }
-
-
-
 
 footer {
     background-color: rgb(235, 227, 227);
@@ -140,6 +141,7 @@ footer {
     padding-right: 20px;
     padding-bottom: 5px;
     font-family: 'Rubik', sans-serif;
+
 }
 .foot-notes {
     display: flex;
