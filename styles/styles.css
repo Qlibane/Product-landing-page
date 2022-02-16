@@ -14,6 +14,30 @@ img {
     flex-direction: row;  
     margin: 0px;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    background-color: rgb(184, 179, 179);
+  }
+  
+  .nav-links {
+      display: flex;
+      width: 50%;
+      justify-content: space-around;    
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+  }
+
 .content {
    text-align: center;
    margin-top: 80px;
@@ -65,6 +89,10 @@ form input {
     font-size: 24px;
 }
 
+.product-section {
+    display: flex;
+}
+
 .product {
     display: flex;
     flex-direction: row;
@@ -103,27 +131,11 @@ button {
 }
 
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 20px;
-  width: 100%;
-  position: fixed;
-  z-index: 10;
-  top: 0px;
-  background-color: rgb(184, 179, 179);
-}
 
-.nav-links {
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-}
 
 footer {
     background-color: rgb(235, 227, 227);
-    width: 830px;
+    width: 820px;
     margin: auto;
     padding-right: 20px;
     padding-bottom: 5px;
@@ -140,11 +152,13 @@ footer {
     margin-right: 30px;
 }
 
-.foot-notes p {
+.foot-notes a {
      margin: 10px 20px 0px 20px;
      padding: 10px 0px;
      font-weight: 400;
      font-size: 16px;
+     text-decoration: none;
+     color: black;
 
 }
 
