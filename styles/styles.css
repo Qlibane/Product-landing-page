@@ -14,6 +14,56 @@ img {
     flex-direction: row;  
     margin: 0px;
 }
+.content {
+   text-align: center;
+   margin-top: 80px;
+   margin-bottom: 40px;
+}
+
+form div {
+    margin: 10px 0px;
+}
+
+form input {
+    width: 250px;
+    height: 25px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: rgba(36, 34, 34, 0.5);
+    padding: 0px 10px;
+}
+
+.content-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;  
+    margin: 40px;
+
+}
+
+.content-property{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    width: 700px;
+}
+
+.content-property p {
+    margin: 5px 0px;
+}
+
+.content-image {
+    margin-right: 50px;
+    width: 200px;
+    color: orange;
+}
+
+
+.content-attribute {
+    font-weight: 600;
+    font-size: 24px;
+}
 
 .product {
     display: flex;
